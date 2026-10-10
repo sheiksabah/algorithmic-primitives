@@ -17,4 +17,13 @@ def hash_table(items, size):
 
     return table
 
-def hash_search(table, target, size)
+# looking up target index
+def hash_search(table, target, size):
+    key = hash_key(target, size)
+
+    if target in table[key]:
+        return key
+    else:
+        return -1
+
+
