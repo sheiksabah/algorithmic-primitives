@@ -1,31 +1,41 @@
 # Algorithms & Machine Learning From Scratch
 
-A growing collection of algorithms and machine learning models implemented from scratch in Python and NumPy.
+A growing collection of algorithms, data structures, and machine learning models implemented from scratch in Python and NumPy.
 
 This project is part of my ongoing effort to strengthen my understanding of **algorithms, mathematics, Python, and machine learning** by implementing concepts myself rather than relying entirely on existing libraries.
 
-## Searching Algorithms
+## Algorithms & Data Structures
 
-A collection of searching algorithms implemented from scratch, focusing on understanding their underlying logic, efficiency, and use cases.
+### Searching Algorithms
+
+Implementations focused on understanding search logic, efficiency, and use cases.
+
+- **Binary Search** — Searches a sorted list by repeatedly dividing the search space in half.
+- **Hash Search** — Uses a hash function and separate chaining to handle collisions during lookup.
+
+### Greedy Algorithms
+
+Implementations exploring greedy strategies for optimization problems.
+
+- **Activity Selection** — Selects the maximum number of non-overlapping activities by prioritizing compatible activities that finish earliest.
 
 ## Machine Learning
 
-Machine learning algorithms implemented from their mathematical foundations.
+Machine learning algorithms implemented from their mathematical foundations, with an emphasis on understanding the underlying computations.
 
-Planned areas include:
+Planned algorithms include:
 
 - Linear Regression
 - Logistic Regression
-- K-Nearest Neighbors
+- K-Nearest Neighbors (KNN)
 - Decision Trees
 - K-Means Clustering
-- Other machine learning algorithms as the project develops
 
 ## Neural Networks
 
 Implementations exploring the fundamentals of neural networks and deep learning.
 
-Planned areas include:
+Planned topics include:
 
 - Neurons
 - Forward Propagation
@@ -50,12 +60,12 @@ Through this project, I aim to:
 - Strengthen my Python programming skills
 - Improve my understanding of algorithms and data structures
 - Understand the mathematics behind machine learning
-- Implement ML algorithms without relying on high-level ML libraries
+- Implement algorithms without relying on high-level libraries
 - Develop practical software engineering skills
-- Build a portfolio demonstrating my understanding of ML fundamentals
+- Build a portfolio demonstrating my understanding of computer science and machine learning fundamentals
 
 ## Progress
 
-This repository will continuously grow as I learn and implement new algorithms, mathematical concepts, and machine learning techniques.
+This repository will continue to grow as I learn and implement new algorithms, mathematical concepts, and machine learning techniques.
 
 The goal is not simply to collect implementations, but to understand **how and why these algorithms work**.
